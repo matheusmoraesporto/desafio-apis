@@ -55,7 +55,7 @@ namespace API2.Controllers
         [Route("showmethecode")]
         public JsonResult ShowMeTheCode()
         {
-            var repositorioGithub = "https://github.com/matheusmoraesporto";
+            var repositorioGithub = "https://github.com/matheusmoraesporto/desafio-apis";
 
             return new JsonResult(repositorioGithub);
         }
