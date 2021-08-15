@@ -77,6 +77,10 @@ namespace API2.Controllers
                 var taxaString = await response.Content.ReadAsStringAsync();
                 taxa = decimal.Parse(taxaString, new CultureInfo("en"));
             }
+            else
+            {
+                throw new ApplicationException("Não foi possível obter o valor base para o cálculo da taxa de juros.");
+            }
 
             return taxa;
         }
