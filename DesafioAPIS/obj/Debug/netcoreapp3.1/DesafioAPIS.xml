@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioAPIS</name>
+    </assembly>
+    <members>
+        <member name="T:API1.Controllers.API1Controller">
+            <summary>
+            Controller para tratar da taxa dos juros.
+            </summary>
+        </member>
+        <member name="M:API1.Controllers.API1Controller.TaxaJuros">
+            <summary>
+            Método para obter o valor da taxa de juros.
+            </summary>
+            <returns>Valor da taxa de juros.</returns>
+        </member>
+        <member name="T:API2.Controllers.API2Controller">
+            <summary>
+            Controller da api de cálculo de juros.
+            </summary>
+        </member>
+        <member name="M:API2.Controllers.API2Controller.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Construtor para inicializar a classe.
+            </summary>
+        </member>
+        <member name="M:API2.Controllers.API2Controller.CalculoJuros(System.Decimal,System.Int32)">
+            <summary>
+            Método para realizar o cáluclo dos juros do valor informado junto à quantidade de meses.
+            </summary>
+            <param name="valorInicial">Valor inicial para base do cálculo de juros.</param>
+            <param name="meses">Quantidade de meses para calcular o valor dos juros.</param>
+            <returns>Valor com os juros calculados.</returns>
+        </member>
+        <member name="M:API2.Controllers.API2Controller.ShowMeTheCode">
+            <summary>
+            Método para exibir o repositório onde encontra-se o projeto.
+            </summary>
+            <returns>URL do repositório do projeto.</returns>
+        </member>
+        <member name="M:API2.Controllers.API2Controller.GetTaxaJuros">
+            <summary>
+            Método que consome a API1, para obter o valor da taxa de juros.
+            </summary>
+            <returns>Valor da taxa de juros.</returns>
+        </member>
+    </members>
+</doc>

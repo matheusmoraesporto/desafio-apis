@@ -27,7 +27,7 @@ namespace API2.Controllers
         }
 
         /// <summary>
-        /// Método para realizar o cáluclo do juro do valor informado junto à quantidade de meses.
+        /// Método para realizar o cáluclo dos juros do valor informado junto à quantidade de meses.
         /// </summary>
         /// <param name="valorInicial">Valor inicial para base do cálculo de juros.</param>
         /// <param name="meses">Quantidade de meses para calcular o valor dos juros.</param>
